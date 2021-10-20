@@ -63,9 +63,6 @@ def login():
     os.system("clear")
     try:
 	def tech_abm():
-    print("\033[1;93mFirst Tool login").center(50)
-    print('')
-    print("\033[1;97m--------------------------------------------------")
     username = raw_input("\033[1;97m[+]\033[1;97m Username :\033[1;97m ")
     if username =="Wisdom×Okenwa":
         os.system("clear")
