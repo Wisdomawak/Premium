@@ -107,7 +107,7 @@ def menu():
 	
 	print("\n\033[1;97m[\033[1;92m01\033[1;97m] crack ID from public friends")
 	print("\033[1;97m[\033[1;92m02\033[1;97m] crack ID from public followers ")
-	print("\033[1;97m[\033[1;92m03\033[1;97m] Okenwa Massive ID's crack Pro\033[1;93m [ \033[1;95mPRO \033[1;97m]")
+	print("\033[1;97m[\033[1;92m03\033[1;97m] Okenwa Massive ID's crack\033[1;93m [ \033[1;95mPRO \033[1;97m]")
 	print("\033[1;97m[\033[1;92m04\033[1;97m] Chack Crack Results")
 	print("\033[1;97m[\033[1;92m05\033[1;97m] User Agent settings\033[1;97m [ \033[1;95mPRO \033[1;97m]")
 	print("\033[1;97m[\033[1;92m00\033[1;97m] Exit\033[1;97m [ \033[1;91mLogout\033[1;97m]")
@@ -239,7 +239,7 @@ def method():
 	if method == "":
 		menu()
 	elif method == "1":
-		ask = raw_input("\033[1;96m[\033[1;94m!\033[1;97m] do you want to you manual passwords y/t\033[1;97m [ \033[1;96mDefault : t \033[1;97m] : ")
+		ask = raw_input("\033[1;96m[\033[1;94m!\033[1;97m] do you want to you manual passwords y/n\033[1;97m [ \033[1;96mDefault : n \033[1;97m] : ")
 		if ask == "y":
 			manual()
 		print(" ")
@@ -253,7 +253,7 @@ def method():
 		ThreadPool(30).map(mbasic, id)
 		exit("Program End")
 	elif method == "3":
-		ask = raw_input("\033[1;96m[\033[1;92m!\033[1;97m] do you want to choose manual passwords y/n\033[1;97m [ \033[1;92mDefault : t \033[1;97m] ")
+		ask = raw_input("\033[1;96m[\033[1;92m!\033[1;97m] do you want to choose manual passwords y/n\033[1;97m [ \033[1;92mDefault : n \033[1;97m] ")
 		if ask == "y":
 			manual()
 		print(" ")
