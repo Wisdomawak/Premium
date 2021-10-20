@@ -168,7 +168,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		exit(" ! no internet connection")
 	logo()
-	print("\n\033[1;37m[\033[1;32m!\033[1;37m] This tool is not for \033[1;33mFREE\033[1;37m use except [\033[1;31mpremium\033[1;37m]")
+	print("\n\033[1;37m[\033[1;32m!\033[1;37m] This tool is for \033[1;33mFREE\033[1;37m use except [\033[1;31mpremium\033[1;37m]")
 	print("\033[1;37m[\033[1;32m01\033[1;37m] Crack from public followers")
 	print("\033[1;37m[\033[1;32m02\033[1;37m] Crack from public  \033[1;32mFOLLOWERS")
 	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from \033[1;32mMULTI-ID's \033[1;37m[\033[1;31mPRO\033[1;97m]")
@@ -325,7 +325,7 @@ def method():
 		ThreadPool(30).map(mbasic, id)
 		exit("Program End")
 	elif method == "3":
-		ask = raw_input("\033[1;37m[\033[1;32m!\033[1;37m] Use manual passwords y/t\033[1;37m [ \033[1;32mDefault : t \033[1;37m] ")
+		ask = raw_input("\033[1;37m[\033[1;32m!\033[1;37m] Use manual passwords y/n\033[1;37m [ \033[1;32mDefault : t \033[1;37m] ")
 		if ask == "y":
 			manual()
 		print(" ")
