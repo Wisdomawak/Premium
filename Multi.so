@@ -63,7 +63,6 @@ def login():
     os.system("clear")
     try:
 	def tech_abm():
-    print logo
     print("\033[1;93mFirst Tool login").center(50)
     print('')
     print("\033[1;97m--------------------------------------------------")
